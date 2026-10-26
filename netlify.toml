@@ -1,0 +1,6 @@
+[build]
+  publish = "public"
+[functions]
+  directory = "netlify/functions"
+[functions."archidekt-sync"]
+  schedule = "0 */6 * * *"
